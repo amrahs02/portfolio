@@ -1,0 +1,509 @@
+body{
+    display: inline-block;
+    width: 99%;
+    height: 100%;
+    margin: 10px;
+    background-color: #f0f5ff;
+    font-family:  'Open Sans','Biotif-Regular','Segoe UI','Helvetica Neue',   Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
+}
+.nav{
+    width: 100%;
+    /* position: fixed; */
+    border-radius: 8px;
+    background-color: #e6eefd;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+.nav table{
+    padding: 0px;
+}
+.logo{
+    background-color: #0e4ecf;
+    width: 40px;
+    display: inline-block;
+    border-radius: 100%;
+    border: 4px solid #0043c8;
+}
+.logotext{
+    color: #0043c8;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 10px;
+    left: 10px;
+}
+a{
+    text-decoration: none;   
+}
+a:hover{
+    color: rgb(31, 107, 183);
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 440px;
+    list-style-type: none;
+}
+li{
+    color: #0043c8;
+    padding: 20px;
+}
+li:hover{
+    color: rgb(126, 165, 255);
+}
+.icon{
+    width: 30px;
+    padding: 5px;
+}
+.container1{
+    background-color: #e6eefd;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 0px;
+    border-radius: 8px;
+    /* padding: 20px; */
+    display: inline-block;
+    width: 100%;
+}
+.cont1table{
+    width: 100%;
+}
+.container12{
+    position: relative;
+    /* left: 220px; */
+    width: 750px;
+    padding: 20px;
+}
+.Sandeeptext{
+    color: #3c6bc9;
+}
+.profile{
+    width: 400px;
+    border-radius: 100%;
+    border: 25px solid #3c6bc9;
+    position: relative;
+    cursor: pointer;
+    left: 160px;
+
+
+    /* button*/
+
+
+}
+.profile:hover{
+    background-color: rgb(119, 176, 217);
+    border-color: rgb(219, 240, 255);
+}
+.webtext{
+    color: #3c6bc9;
+
+}
+.webtext:hover{
+    color: #4c81ea;
+    cursor: pointer;
+}
+
+/* .frontend{
+    text-shadow: 3pc;
+} */
+.button1 {
+    border-radius: 22px;
+    background-color: #3c6bc9;
+    padding: 12px;
+    color: white;
+    border: none;
+    margin: 4px;
+    text-align: center;
+/* -webkit-transition-duration: 0.4s; */
+    cursor: pointer;
+}
+.button2{
+    border-radius: 22px;
+    background-color: white;
+    padding: 12px;
+    color: #3c6bc9;
+    border: none;
+    margin: 4px;
+    text-align: center;
+/* -webkit-transition-duration: 0.4s; */
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: white;
+    color: #3c6bc9;
+}
+.button1:hover::after{
+    content: " Coming soon";
+    color: red;
+}
+.button2:hover{
+    background-color: #3c6bc9;
+    color: white;
+}
+.button2:hover::after{
+    content: " @ sandeepsharma2183@gmail.com";
+}
+.social-media{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    /* font-weight: 100px; */
+    /* flex-direction: row; */
+
+}
+/* .button1::after, .button2::after{
+    content: "";
+    background :#90ee90;
+    display: block;
+    position: absolute;
+    padding: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transform: all 0.8s
+}
+.button1:active::after , .button2:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transform: 0s;
+} */
+
+
+
+.about{
+    position: relative;
+    /* margin: 70px; */
+    width: 100%;
+    /* background-color: #0043c8; */
+    background-color: #e6eefd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    border-radius: 8px;
+}
+.about1{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+/* .profilepic2{
+} */
+.about2{
+    /* position: relative; */
+    /* left: 130px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.sign{
+    width: 60px;
+}
+/* .about2{
+    position: relative;
+    left: 0px;
+} */
+.button3{
+    border-radius: 22px;
+    background-color: #3c6bc9;
+    padding: 12px;
+    color: #fff;
+    border: none;
+    margin: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.button5{
+    border-radius: 22px;
+    background-color: #fff;
+    padding: 12px;
+    color: #3c6bc9;
+    border: none;
+    margin: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.button3{
+    background-color: white;
+    color: #3c6bc9;
+}
+.button5:hover{
+    background-color: #3c6bc9;
+    color: white;
+}
+.profilepic2{
+    width: 250px;
+    padding: 10px;
+}
+.projecttext{
+    text-align: center;
+}
+.skillprogressdiv{
+    width: 100%;
+    align-items: center;
+}
+.skillprogressdiv{
+    margin: 0px;
+    width: 100%;
+    /* position: relative; */
+    padding-top: 100px;
+    background-color: #e6eefd;
+    padding-bottom: 100px;
+    border-radius: 8px;
+    /* text-align: center; */
+    align-items: center;
+}
+.skillprogresstable{
+    /* position: relative; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* left: 530px; */
+}
+
+.containerbar{
+    background-color: rgb(210, 226, 255);
+    width: 100%;
+    /* align-items: center; */
+    border: none;
+    border-radius: 15px;
+    /* text-align: center; */
+
+}
+.skillx{
+    background-color: #3c6bc9;
+    color: white;
+    padding: 1%;
+    /* border: none; */
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.htmlbar{
+    width: 80%;
+}
+.cppbar{
+    width: 75%;
+}
+.cbar{
+    width: 75%;
+}
+.cssbar{
+    width: 75%;
+}
+
+
+
+
+.projects {
+    background-color: #e6eefd;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 90px;
+    padding-bottom: 120px;    /* text-align: center; */
+    /* align-items: center; */
+    /* position: relative; */
+    /* left: 500px; */
+
+}
+.projects12{
+    position: relative;
+    left: 190px;
+}
+.project1,.project2,.project3,.project4{
+    width: 500px;
+    background-color: #3c6bc9;
+    border: none;
+    padding: 30px;
+    color: #fff;
+    border-radius: 60px;
+}
+.project1:hover ,.project2:hover ,.project3:hover ,.project4:hover{
+    color: #ffffff;
+    background-color: #0043c8;
+}
+.project1:hover::after ,.project2:hover::after ,.project3:hover::after ,.project4:hover::after{
+    content: "Coming soon";
+    color: rgb(222, 233, 10) ;
+}
+.project1,.project2,.project3,.project4 ,tr ,td{
+    padding: 15px;
+
+}
+/* .skills1:hover , .skills2:hover , .skills3:hover ,.skills4:hover
+{
+    background-color: white;
+}  */
+/* .exp1,.exp2,.exp3{
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    position: relative;
+    left: 300px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.exp1,.exp2,.exp3{
+    text-align: center;
+}
+.exp11{
+    text-align: center;
+}
+.imgofexp{
+    width: 40px;
+    align-items: center;
+}
+.Expertise-area h1{
+    text-align: center;
+}
+.Expertise-area{
+    border-radius: 8px;
+    background-color: #e6eefd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+} */
+.Project-Suggestion{
+    width: 100%;
+    height: 100%;
+    /* padding-top: 200px; */
+    text-align: center;
+    background-color: #e6eefd;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 8px;
+}
+.button6{
+    background-color: #0e4ecf;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 12px;
+    margin: 6px;
+}
+.button6:hover{
+    color: #0e4ecf;
+    background-color: white;
+}
+.button6:hover::after{
+    content: " Or Suggest me";
+}
+.social-media2{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 250px;
+    /* font-weight: 100px; */
+    /* flex-direction: row; */
+
+}
+.form1{
+    width: 100%;
+    /* border-radius: 8px; */
+    /* left: 450px; */
+    /* width: 100%;
+    background-color: #e6eefd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    flood-opacity: 7%; */
+
+}
+.form{
+    border-radius: 8px;
+    background-color: #e6eefd;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.contacts{
+    width: 100%;
+    background-color: #e6eefd;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 22px;
+    background-color: #e6eefd;
+    /* padding: 12px; */
+    color: #0e4ecf;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.login-box {
+    
+    width: 100%;
+    background-color: #e6eefd;
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 22px;
+    position: relative;
+    right: 100px;
+    background-color: #d8e4f9;
+    /* padding: 12px; */
+    color: #0e4ecf;
+    border: none;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.user-box{
+    border-radius: 20px;
+    background-color:#e6eefd;
+    padding: 7px;
+    border-color: #2d5cc3;
+    border: 3px solid #2d5cc3
+}
+.button7{
+    background-color: #2d5cc3;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 12px;
+    margin: 8px;
+}
+.user-box:hover{
+    border: none;
+}
+.button7:hover{
+    color: #3c6bc9;
+    background-color: white;
+}
+.button7:hover::after{
+    content: " Or Submit    ";
+
+}
+.footer{
+    background-color: #e6eefd;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+.footer p{
+    font-size: 13px;
+}
