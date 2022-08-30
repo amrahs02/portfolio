@@ -4,7 +4,7 @@ body{
     height: 100%;
     margin: 10px;
     background-color: #f0f5ff;
-    font-family:  'Open Sans','Biotif-Regular','Segoe UI','Helvetica Neue',   Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
+    font-family:  'Helvetica Neue','Open Sans','Biotif-Regular','Segoe UI',   Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
 }
 .nav{
     width: 100%;
@@ -12,81 +12,129 @@ body{
     border-radius: 8px;
     background-color: #e6eefd;
     margin-bottom: 10px;
-    padding-bottom: 0px;
 }
-.nav table{
-    padding: 0px;
+.nav1,.nav2, .nav3{
+    width: 100%;
 }
-.logo{
-    background-color: #0e4ecf;
-    width: 40px;
-    display: inline-block;
-    border-radius: 100%;
-    border: 4px solid #0043c8;
-}
-.logotext{
+.home ,li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     color: #0043c8;
-    position: relative;
-    cursor: pointer;
-    padding-bottom: 10px;
-    left: 10px;
+    padding: 20px;
+
 }
-a{
+.nav3, a{
     text-decoration: none;   
 }
 a:hover{
     color: rgb(31, 107, 183);
 }
-.home {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 440px;
-    list-style-type: none;
-}
-li{
-    color: #0043c8;
-    padding: 20px;
-}
+
 li:hover{
     color: rgb(126, 165, 255);
 }
+.nav table{
+    width: 100%;
+}
+.Expertise:hover{
+    color: #e6eefd;
+}
+.Expertise:hover::after{
+    content: "Coming soon";
+    color: red;
+}
+.logo{
+    background-color: #0e4ecf;
+    width: 10%;
+    display: inline-block;
+    border-radius: 100%;
+    border: 6% solid #0e4ecf;
+}
+.logosandeeptext{
+    color: #0043c8;
+    width: 100%;
+    align-items: center;
+    /* position: relative; */
+    /* left: 10px; */
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.navtable{
+    width: 100%;
+}
+
 .icon{
     width: 30px;
     padding: 5px;
 }
+@media(max-width:750px){
+    .home{
+        color: white;
+        position: absolute;
+        /* visibility: hidden; */
+        left: 300px;
+        display: none;
+        /* height: 60vh;
+        max-width: 100px;
+        width: 50%;
+        flex-direction: column;
+        align-items: ;
+        padding-top: 10px; */
+    }
+}
+
+
+
+/* .container1 stars from here*/
+
+
+
+
+
+
 .container1{
     background-color: #e6eefd;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
-    position: relative;
-    top: 0px;
+    /* position: relative; */
+    /* top: 0px; */
     border-radius: 8px;
     /* padding: 20px; */
     display: inline-block;
     width: 100%;
 }
-.cont1table{
+.container1table{
     width: 100%;
 }
+.container11{
+    width: 100%;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
 .container12{
-    position: relative;
+    /* position: relative; */
     /* left: 220px; */
-    width: 750px;
-    padding: 20px;
+    /* padding: 10px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
 }
 .Sandeeptext{
     color: #3c6bc9;
 }
 .profile{
-    width: 400px;
+    width: 50%;
     border-radius: 100%;
-    border: 25px solid #3c6bc9;
-    position: relative;
+    border: 10px solid #3c6bc9;
+    /* position: relative; */
+    /* left: 160px; */
     cursor: pointer;
-    left: 160px;
 
 
     /* button*/
@@ -149,9 +197,9 @@ li:hover{
 .social-media{
     list-style-type: none;
     display: flex;
-    position: relative;
-    top: 40px;
-    right: 50px;
+    /* position: relative; */
+    /* right: 50px; */
+    /* top: 40px; */
     /* font-weight: 100px; */
     /* flex-direction: row; */
 
@@ -177,11 +225,21 @@ li:hover{
 
 
 
+
+
+
+
+
+
+
+.sandeepabouttext{
+    color: #3c6bc9;
+}
 .about{
-    position: relative;
+    /* position: relative; */
     /* margin: 70px; */
-    width: 100%;
     /* background-color: #0043c8; */
+    width: 100%;
     background-color: #e6eefd;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -192,11 +250,16 @@ li:hover{
 .about1{
     width: 100%;
     padding-top: 20px;
+    align-items: center;
+    text-align: center;
     padding-bottom: 20px;
 
 }
-/* .profilepic2{
-} */
+ .profilepic2{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
 .about2{
     /* position: relative; */
     /* left: 130px; */
@@ -211,7 +274,7 @@ li:hover{
     position: relative;
     left: 0px;
 } */
-.button3{
+/* .button3{
     border-radius: 22px;
     background-color: #3c6bc9;
     padding: 12px;
@@ -230,7 +293,7 @@ li:hover{
     margin: 4px;
     text-align: center;
     cursor: pointer;
-}
+} */
 .button3{
     background-color: white;
     color: #3c6bc9;
@@ -239,10 +302,7 @@ li:hover{
     background-color: #3c6bc9;
     color: white;
 }
-.profilepic2{
-    width: 250px;
-    padding: 10px;
-}
+
 .projecttext{
     text-align: center;
 }
@@ -310,21 +370,20 @@ li:hover{
     margin-top: 10px;
     margin-bottom: 20px;
     padding-top: 90px;
-    padding-bottom: 120px;    /* text-align: center; */
+    padding-bottom: 90px;    /* text-align: center; */
     /* align-items: center; */
     /* position: relative; */
     /* left: 500px; */
 
 }
 .projects12{
-    position: relative;
-    left: 190px;
+    width: 100%;
 }
 .project1,.project2,.project3,.project4{
-    width: 500px;
+    /* width: 500px; */
+    width: 100%;
     background-color: #3c6bc9;
     border: none;
-    padding: 30px;
     color: #fff;
     border-radius: 60px;
 }
@@ -405,76 +464,74 @@ li:hover{
 .social-media2{
     list-style-type: none;
     display: flex;
-    position: relative;
-    top: 10px;
-    left: 250px;
+    /* position: relative; */
+    /* top: 10px; */
+    /* left: 250px; */
     /* font-weight: 100px; */
     /* flex-direction: row; */
 
 }
-.form1{
-    width: 100%;
-    /* border-radius: 8px; */
-    /* left: 450px; */
-    /* width: 100%;
-    background-color: #e6eefd;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 20px; 
-    flood-opacity: 7%; */
 
-}
-.form{
+
+
+
+
+
+
+
+
+
+
+.contacts{
     border-radius: 8px;
     background-color: #e6eefd;
     width: 100%;
     margin-top: 30px;
     margin-bottom: 0px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
-
-.contacts{
+.contactstable{
+    width: 100%;
+    border-radius: 8px;
     width: 100%;
     background-color: #e6eefd;
-    margin-top: 0px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-radius: 22px;
-    background-color: #e6eefd;
-    /* padding: 12px; */
-    color: #0e4ecf;
-    border: none;
-    text-align: center;
-    cursor: pointer;
 }
-.login-box {
+
+.contacts1{
     
     width: 100%;
     background-color: #e6eefd;
-    margin-top: 10px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-radius: 22px;
-    position: relative;
-    right: 100px;
-    background-color: #d8e4f9;
-    /* padding: 12px; */
+    border-radius: 8px;
     color: #0e4ecf;
-    border: none;
-    margin: 10px;
-    text-align: center;
     cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contacts2{
+    width: 100%;
+    background-color: #e6eefd;
+    border-radius: 8px;
+    color: #0e4ecf;
+    cursor: pointer;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
 
 }
 .user-box{
-    border-radius: 20px;
+    border-radius: 25px;
     background-color:#e6eefd;
-    padding: 7px;
+    padding: 12px;
     border-color: #2d5cc3;
-    border: 3px solid #2d5cc3
+    border: 2px solid #2d5cc3
 }
 .button7{
     background-color: #2d5cc3;
@@ -482,7 +539,7 @@ li:hover{
     color: white;
     border-radius: 25px;
     padding: 12px;
-    margin: 8px;
+    margin: 5px;
 }
 .user-box:hover{
     border: none;
@@ -501,7 +558,7 @@ li:hover{
     border-radius: 8px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
 } 
 .footer p{
