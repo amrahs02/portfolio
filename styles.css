@@ -1,6 +1,6 @@
 body{
     display: inline-block;
-    width: 99%;
+    width: 98.5%;
     height: 100%;
     margin: 10px;
     background-color: #f0f5ff;
@@ -8,72 +8,79 @@ body{
 }
 .nav{
     width: 100%;
-    /* position: fixed; */
     border-radius: 8px;
     background-color: #e6eefd;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
+.logo{
+    display: inline-block;
+    padding-left: 20px;
+}
+.logosandeeptext{
+    color: #0043c8;
+    width: 100%;
+    cursor: pointer;
+}
+.logosandeeptext:hover{
+    color: rgb(126, 165, 255);
+}
+
 .nav1,.nav2, .nav3{
     width: 100%;
+    /* padding: 0px; */
+}
+.nav1{
+    width: 100%;
+    align-items: center;
+}
+.nav2{
+    /* text-align: center; */
+    width: 100%;
+}
+.nav3{
+    width: 90%;
+}
+.nav1, img ,.logo {
+    width: 40%;
+    /* padding-left: 10px; */
 }
 .home ,li{
     width: 100%;
     display: flex;
     flex-direction: row;
     color: #0043c8;
-    padding: 20px;
-
+    padding: 12px;
+}
+.home{
+    width: 100%;
 }
 .nav3, a{
     text-decoration: none;   
-}
-a:hover{
-    color: rgb(31, 107, 183);
 }
 
 li:hover{
     color: rgb(126, 165, 255);
 }
-.nav table{
-    width: 100%;
-}
-.Expertise:hover{
-    color: #e6eefd;
-}
-.Expertise:hover::after{
-    content: "Coming soon";
-    color: red;
-}
-.logo{
-    background-color: #0e4ecf;
-    width: 10%;
-    display: inline-block;
-    border-radius: 100%;
-    border: 6% solid #0e4ecf;
-}
-.logosandeeptext{
-    color: #0043c8;
-    width: 100%;
-    align-items: center;
-    /* position: relative; */
-    /* left: 10px; */
-    cursor: pointer;
-    padding-bottom: 10px;
-}
 .navtable{
     width: 100%;
+    padding: 0px;
 }
-
-.icon{
+.navtable1{
+    padding: 0px;
+}
+.navtable2{
+    padding: 0px;
+}
+/* .icon{
     width: 30px;
     padding: 5px;
-}
+} */
 @media(max-width:750px){
     .home{
         color: white;
-        position: absolute;
+        /* position: absolute; */
         /* visibility: hidden; */
-        left: 300px;
+        /* left: 300px; */
         display: none;
         /* height: 60vh;
         max-width: 100px;
@@ -86,6 +93,10 @@ li:hover{
 
 
 
+
+
+
+
 /* .container1 stars from here*/
 
 
@@ -95,10 +106,9 @@ li:hover{
 
 .container1{
     background-color: #e6eefd;
-    margin-top: 0px;
-    margin-bottom: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 5px;
     /* position: relative; */
     /* top: 0px; */
     border-radius: 8px;
@@ -106,44 +116,34 @@ li:hover{
     display: inline-block;
     width: 100%;
 }
-.container1table{
+/* .container1table{
     width: 100%;
-}
+} */
 .container11{
     width: 100%;
     padding-top: 20px;
-    align-items: center;
     text-align: center;
     padding-bottom: 20px;
 
 }
 .container12{
-    /* position: relative; */
-    /* left: 220px; */
-    /* padding: 10px; */
-    padding-top: 20px;
-    padding-bottom: 20px;
     width: 100%;
 }
 .Sandeeptext{
     color: #3c6bc9;
 }
 .profile{
-    width: 50%;
+    width: 40%;
+    padding: 0px;
     border-radius: 100%;
-    border: 10px solid #3c6bc9;
+    border: 15px solid #ffffff;
     /* position: relative; */
     /* left: 160px; */
     cursor: pointer;
-
-
-    /* button*/
-
-
 }
 .profile:hover{
     background-color: rgb(119, 176, 217);
-    border-color: rgb(219, 240, 255);
+    border-color: rgb(17, 170, 173);
 }
 .webtext{
     color: #3c6bc9;
@@ -197,6 +197,10 @@ li:hover{
 .social-media{
     list-style-type: none;
     display: flex;
+    text-decoration: none;
+    /* box-sizing: border-box; */
+    margin-top: 10px;
+    padding: 0px;
     /* position: relative; */
     /* right: 50px; */
     /* top: 40px; */
@@ -228,6 +232,10 @@ li:hover{
 
 
 
+/* about section   */
+
+
+
 
 
 
@@ -241,10 +249,10 @@ li:hover{
     /* background-color: #0043c8; */
     width: 100%;
     background-color: #e6eefd;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 60px;
-    padding-bottom: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-radius: 8px;
 }
 .about1{
@@ -256,9 +264,10 @@ li:hover{
 
 }
  .profilepic2{
-    width: 50%;
-    height: 50%;
-    padding: 10px;
+    width: 40%;
+    border-radius: 100%;
+    border: 10px solid #ffffff;
+    cursor: pointer;
 }
 .about2{
     /* position: relative; */
@@ -293,7 +302,7 @@ li:hover{
     margin: 4px;
     text-align: center;
     cursor: pointer;
-} */
+} 
 .button3{
     background-color: white;
     color: #3c6bc9;
@@ -301,30 +310,35 @@ li:hover{
 .button5:hover{
     background-color: #3c6bc9;
     color: white;
-}
+} */
+
+
+
+
+/* Project section  */
+
+
+
 
 .projecttext{
     text-align: center;
 }
-.skillprogressdiv{
-    width: 100%;
-    align-items: center;
-}
-.skillprogressdiv{
-    margin: 0px;
+.skills{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     width: 100%;
     /* position: relative; */
-    padding-top: 100px;
     background-color: #e6eefd;
-    padding-bottom: 100px;
     border-radius: 8px;
     /* text-align: center; */
     align-items: center;
 }
-.skillprogresstable{
+.skillsstable{
     /* position: relative; */
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-top: 30px; */
+    padding : 50px;
     width: 100%;
     /* text-align: center; */
     /* align-items: center; */
@@ -333,10 +347,10 @@ li:hover{
 
 .containerbar{
     background-color: rgb(210, 226, 255);
-    width: 100%;
+    width: 90%;
     /* align-items: center; */
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
     /* text-align: center; */
 
 }
@@ -347,7 +361,7 @@ li:hover{
     /* border: none; */
     text-align: center;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 .htmlbar{
     width: 80%;
@@ -361,6 +375,31 @@ li:hover{
 .cssbar{
     width: 75%;
 }
+.javabar{
+    background-color: rgb(210, 226, 255);
+    width: -1%;
+    color: #0e4ecf;
+}
+.javascriptbar{
+    color: #0e4ecf;
+    width: -1%;
+    background-color: rgb(210, 226, 255); /* this is used to change the percentage to zero */
+}
+.javascriptbar:hover::after , .javabar:hover::after{
+    content: "Coming soon";
+    color: rgb(255, 61, 100) ;
+}
+
+
+
+
+/* Project section  */
+
+
+
+
+
+
 
 
 
@@ -368,9 +407,9 @@ li:hover{
 .projects {
     background-color: #e6eefd;
     margin-top: 10px;
-    margin-bottom: 20px;
-    padding-top: 90px;
-    padding-bottom: 90px;    /* text-align: center; */
+    margin-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 100px;    /* text-align: center; */
     /* align-items: center; */
     /* position: relative; */
     /* left: 500px; */
@@ -380,8 +419,7 @@ li:hover{
     width: 100%;
 }
 .project1,.project2,.project3,.project4{
-    /* width: 500px; */
-    width: 100%;
+    width: 80%;
     background-color: #3c6bc9;
     border: none;
     color: #fff;
@@ -434,14 +472,92 @@ li:hover{
     padding-top: 100px;
     padding-bottom: 100px; 
 } */
+
+
+
+
+
+
+
+                       /* Expertise area section  */
+
+
+
+
+
+
+/* .expertise-area{
+    background-color: #e6eefd;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 50px;
+    width: 100%;
+    padding-bottom: 100px; 
+}
+.exptable{
+    width: 100%;
+    align-items: center;
+}
+.exp1{
+    width: 40%;
+    padding: 20px;
+    width: 80%;
+    background-color: #3c6bc9;
+    border: none;
+    align-items: center;
+    color: #fff;
+    border-radius: 60px;
+} */
+.x{
+    align-items: center;
+    text-align: right;
+}
+.y{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Project-Suggestion section  */
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Project-Suggestion{
     width: 100%;
     height: 100%;
     /* padding-top: 200px; */
     text-align: center;
     background-color: #e6eefd;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 100px;
     padding-bottom: 100px;
     border-radius: 8px;
@@ -464,6 +580,9 @@ li:hover{
 .social-media2{
     list-style-type: none;
     display: flex;
+    padding: 0px;
+    text-decoration: none;
+    margin: 0px;
     /* position: relative; */
     /* top: 10px; */
     /* left: 250px; */
@@ -471,33 +590,25 @@ li:hover{
     /* flex-direction: row; */
 
 }
-
-
-
-
-
-
-
-
-
-
-
-.contacts{
-    border-radius: 8px;
-    background-color: #e6eefd;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
+.social-media2list{
+    width: 5%;
+    text-align: center;
 }
-.contactstable{
-    width: 100%;
-    border-radius: 8px;
-    width: 100%;
-    background-color: #e6eefd;
-}
+
+
+
+
+
+
+
+
+
+/* contact section */
+
+
+
+
+
 
 .contacts1{
     
@@ -506,12 +617,36 @@ li:hover{
     border-radius: 8px;
     color: #0e4ecf;
     cursor: pointer;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-align: center;
 }
+.social-media2{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    left: 42%;
+    padding: 0px;
+    width: 40%;
+}
+.social-media2div{
+    text-align: center;
+}
+
+
+
+
+
+
+
+                   /* the form section or contacts2 section  */
+
+
+
+
+
 .contacts2{
     width: 100%;
     background-color: #e6eefd;
@@ -519,26 +654,27 @@ li:hover{
     color: #0e4ecf;
     cursor: pointer;
     border: none;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     text-align: center;
 
 }
 .user-box{
     border-radius: 25px;
     background-color:#e6eefd;
-    padding: 12px;
+    padding: 13px;
+    margin: 5px;
     border-color: #2d5cc3;
     border: 2px solid #2d5cc3
 }
 .button7{
-    background-color: #2d5cc3;
-    border: none;
-    color: white;
     border-radius: 25px;
-    padding: 12px;
+    padding: 13px;
+    border: 2px solid #2d5cc3;
+    background-color: #2d5cc3;
+    color: white;
     margin: 5px;
 }
 .user-box:hover{
@@ -549,17 +685,37 @@ li:hover{
     background-color: white;
 }
 .button7:hover::after{
-    content: " Or Submit    ";
-
+    content: " Or Leave a message    ";
 }
+
+
+
+
+
+/* up arrow  */
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
 .footer{
     background-color: #e6eefd;
     text-align: center;
     border-radius: 8px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 } 
 .footer p{
     font-size: 13px;
