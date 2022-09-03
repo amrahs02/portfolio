@@ -133,7 +133,7 @@ li:hover{
     color: #3c6bc9;
 }
 .profile{
-    width: 40%;
+    width: 60%;
     padding: 0px;
     border-radius: 100%;
     border: 15px solid #ffffff;
@@ -681,11 +681,8 @@ li:hover{
     border: none;
 }
 .button7:hover{
-    color: #3c6bc9;
+    color: #2d5cc3;
     background-color: white;
-}
-.button7:hover::after{
-    content: " Or Leave a message    ";
 }
 
 
