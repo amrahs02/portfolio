@@ -1,4 +1,3 @@
-
   body {
   display: inline-block;
   width: 100%;
@@ -667,40 +666,3 @@ form {
   padding: 1.2% 1.2% 1.2% 3%;
   color: black;
 }
-
-
-
-/* 17 april 2023 */
-/* body {
-  display: inline-block;
-  width: 100%;
-  /* height: 100%; */
-  margin: 0;
-  background-color: #f0f5ff;
-  font-family: "Helvetica Neue", "Open Sans", "Biotif-Regular", "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-}
-
-/* .help{
-    width: 100%;
-    background-color: red;
-}
-.help1{
-    background-color: green;
-    width: 100%;
-    margin: auto;
-}
-.help img {
-    width: 5%;
-    position: fixed;
-    align-items: flex-end;
-    color: white;
-
-}
-
-
-
-
- */
-
-
