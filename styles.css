@@ -3,7 +3,6 @@
   width: 100%;
   margin: 0;
   background-color: #f0f5ff;
-  scroll-behavior: smooth;
   font-family: "Helvetica Neue", "Open Sans", "Biotif-Regular", "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
@@ -180,7 +179,6 @@
    width: 50%;
   padding: 20px;
   cursor: pointer;
-
 }
 .profilepic2 {
 
@@ -196,6 +194,9 @@
   padding: 3%;
   border-radius: 20px;
 }
+
+
+
 .sign {
   width: 60px;
 }
@@ -395,7 +396,31 @@
   }
 }
 
+
+
+
+
+
+
   @media (max-width: 800px){
+    .about{
+      /* margin: 10px; */
+      margin-top: 0;
+      padding-top: 5px;
+      padding-bottom: 0px;
+    }
+    .imgpic2{
+      display: none;
+    }
+    .about2{
+        align-items: right;
+        width: 100%;
+        background-color: #D8E5FE;
+        margin-top: 0;
+        padding-left: 70px;
+        justify-content: center;
+        border-radius: 0;
+      }
     .contacts{
       display: flex;
       flex-direction: column;
@@ -424,6 +449,7 @@
     }
     .skills1{
       display: flex;
+      margin-top: 0;
       flex-direction: column;
       width: 100%;
     }
@@ -435,18 +461,42 @@
       width: 70%;
       margin: auto;
     }
+    div.main1{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+
+    }
+    div.main12{
+      width: 93%;
+      padding: 5%;
+      margin: 2%;
+    }
+    .navbar{
+      width: fit-content;
+      margin: 30px 20px 0 0;
+    }
+    
 }
 
-@media (min-width:750px) {
+@media (max-width:750px) {
   .nav3 i {
     display: none;
     float: right;
+  }
+  .navbar{
+    width: fit-content;
+    /* margin: 50px 20px 0 0; */
   }
   
 }
 @media(max-width:1606px){
   .contacts2{
     width: 40%;
+  }
+  .navbar{
+    width: fit-content;
+    margin: 8px 40px 0 0;
   }
 }
 @media(max-width:1287px){
@@ -461,9 +511,14 @@
   .btn{
     width: 40%;
   }
+
 }
 
-
+@media (max-width:600px){
+  .navbar{
+    margin: 40px 20px 0 0;
+  }
+}
 
 
 
@@ -642,13 +697,19 @@ form {
   
 }
 .main12{
-  width: 94%;
-  padding: 6%;
-  margin: 1%;
+  width: 96%;
+  padding: 3%;
+  align-content: center;
+  margin: 1% 2% 5% 2% ;
   border-radius: 20px;
   height: fit-content;
   background-color: #D8E5FE;
 }
+.carousel-inner{
+  background-color: #e6eefd;
+  padding: 30px;
+}
+
 .main12_text{
   width: 90%;
   margin: 0 0 0 5%;
