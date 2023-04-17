@@ -3,6 +3,7 @@
   width: 100%;
   margin: 0;
   background-color: #f0f5ff;
+  scroll-behavior: smooth;
   font-family: "Helvetica Neue", "Open Sans", "Biotif-Regular", "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
