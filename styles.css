@@ -58,6 +58,16 @@
   width: 12%;
 }
 
+
+
+
+
+
+.nav-link{
+  margin-right: 5px;
+
+}
+
 .container1 {
   background-color: #e6eefd;
   padding-top: 50px;
@@ -189,12 +199,11 @@
 .about2 {
   align-items: right;
   padding-top: 20px;
-  background-color: #D8E5FE;
+  background-color: red;
   width: 50%;
   padding: 3%;
   border-radius: 20px;
 }
-
 
 
 .sign {
@@ -420,6 +429,9 @@
         padding-left: 70px;
         justify-content: center;
         border-radius: 0;
+      }
+      div .about2{
+        background-color: #e6eefd;
       }
     .contacts{
       display: flex;
@@ -672,13 +684,16 @@ form {
 }
 .main11_link{
   /* border: 2px solid #3c6bc9; */
-  background-color: #E6EEFD;
+  background-color: #0e4ecf;
   margin: 0 0 0 5%;
   border-radius: 200px;
   width: 50%;
   align-items: center;
   padding: 1.2% 1.2% 1.2% 3%;
-  color: black;
+  color: white;
+}
+.main11_link a{
+  color: white;
 }
 .main11_image{
   /* background-color: rgb(255, 255, 255); */
@@ -714,17 +729,20 @@ form {
   width: 90%;
   margin: 0 0 0 5%;
   /* padding: ; */
-  background-color: #3c6bc9;
+  background-color: white;
   color: #000000;
   
 }
 .main12_link{
   /* border: 2px solid #3c6bc9; */
-  background-color: #E6EEFD;
+  background-color: #0e4ecf;
   margin: 0 0 0 5%;
   border-radius: 200px;
   width: 50%;
   align-items: center;
   padding: 1.2% 1.2% 1.2% 3%;
-  color: black;
+  color: white;
+}
+.main12_link a{
+  color: white;
 }
