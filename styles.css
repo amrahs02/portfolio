@@ -753,3 +753,6 @@ form {
   background-color: #e6eefd;
   padding: 30px;
 }
+.carousel-indicators{
+  margin: 0;
+}
