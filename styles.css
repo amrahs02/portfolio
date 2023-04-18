@@ -120,7 +120,7 @@
 .frontend span:nth-child(2){
   color: transparent;
   -webkit-text-stroke: 1px #1b62ee;
-  font-size: 85px;
+  font-size: 70px;
   background: url(/images/back.png);
   -webkit-background-clip: text;
   background-position: 0 0;
