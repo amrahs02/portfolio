@@ -117,9 +117,21 @@
   cursor: pointer;
 }
 
-/* .frontend{
-    text-shadow: 3pc;
-} */
+.frontend span:nth-child(2){
+  color: transparent;
+  -webkit-text-stroke: 1px #1b62ee;
+  font-size: 85px;
+  background: url(/images/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+
+@keyframes back{
+  100%{
+    background-position: 2000px 0;
+  }
+}
 .button1 {
   border-radius: 20px;
   background-color: #3c6bc9;
