@@ -88,6 +88,7 @@
   width: 65%;
   text-align: left;
   margin-top: 20px;
+  font-size: 14px;
   margin: auto;
   margin-left: 40px;
 }
@@ -426,6 +427,7 @@
         width: 100%;
         background-color: #D8E5FE;
         margin-top: 0;
+        padding: 70px 0px;
         padding-left: 70px;
         justify-content: center;
         border-radius: 0;
@@ -436,6 +438,7 @@
     .contacts{
       display: flex;
       flex-direction: column;
+      font-size: ;
   
     }
     .contacts .contacts1 {
@@ -655,6 +658,7 @@ form {
 }
 .heading{
   text-align: center;
+  background-color: #e6eefd;
 }
 .main1{
   background-color:#e6eefd  ;
@@ -666,23 +670,28 @@ form {
   margin: auto ;
   
 }
-.main11{
+.main12{
   width: 94%;
-  padding: 2%;
+  padding: 3%;
   margin: 1%;
   border-radius: 20px;
   height: fit-content;
   background-color: #D8E5FE;
 }
-.main11_text{
+.main12_text{
   /* background-color: #3c6bc9; */
-  border-radius: 20px;
+  /* border-radius: 20px; */
   width: 90%;
   color: #000000;
   margin: 0 0 0 5%;
   
 }
-.main11_link{
+.main12 h2{
+  background-color: #e6eefd;
+  padding: 20px;
+  border-radius: 50px;
+}
+.main12_link{
   /* border: 2px solid #3c6bc9; */
   background-color: #0e4ecf;
   margin: 0 0 0 5%;
@@ -692,14 +701,14 @@ form {
   padding: 1.2% 1.2% 1.2% 3%;
   color: white;
 }
-.main11_link a{
+.main12_link a{
   color: white;
 }
-.main11_image{
+.main12_image{
   /* background-color: rgb(255, 255, 255); */
   
 }
-.main11_description{
+.main12_description{
   /* background-color: #3c6bc9; */
   text-align: left;
   color: black;
@@ -708,9 +717,8 @@ form {
   border-radius: 20px;
   margin: auto;
   /* margin: 4%; */
-  padding: 6%;
-  
-}
+  padding: 3% 0;  
+} 
 .main12{
   width: 96%;
   padding: 3%;
@@ -729,7 +737,8 @@ form {
   width: 90%;
   margin: 0 0 0 5%;
   /* padding: ; */
-  background-color: white;
+  background-color: #e6eefd;
+  border-radius: 40px;
   color: #000000;
   
 }
