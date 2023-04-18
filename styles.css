@@ -656,6 +656,11 @@ form {
   height: fit-content;
   
 }
+.main12 h2{
+  background-color: #e6eefd;
+  padding: 20px;
+  border-radius: 50px;
+}
 .heading{
   text-align: center;
   background-color: #e6eefd;
@@ -677,6 +682,13 @@ form {
   border-radius: 20px;
   height: fit-content;
   background-color: #D8E5FE;
+  width: 96%;
+  padding: 3%;
+  align-content: center;
+  margin: 1% 2% 5% 2% ;
+  border-radius: 20px;
+  height: fit-content;
+  background-color: #D8E5FE;
 }
 .main12_text{
   /* background-color: #3c6bc9; */
@@ -684,13 +696,15 @@ form {
   width: 90%;
   color: #000000;
   margin: 0 0 0 5%;
+  width: 90%;
+  margin: 0 0 0 5%;
+  /* padding: ; */
+  background-color: #e6eefd;
+  border-radius: 40px;
+  color: #000000;
   
 }
-.main12 h2{
-  background-color: #e6eefd;
-  padding: 20px;
-  border-radius: 50px;
-}
+
 .main12_link{
   /* border: 2px solid #3c6bc9; */
   background-color: #0e4ecf;
@@ -699,14 +713,18 @@ form {
   width: 50%;
   align-items: center;
   padding: 1.2% 1.2% 1.2% 3%;
+  /* border: 2px solid #3c6bc9; */
+  background-color: #0e4ecf;
+  margin: 0 0 0 5%;
+  border-radius: 200px;
+  width: 50%;
+  align-items: center;
+  padding: 1.2% 1.2% 1.2% 3%;
+  color: white;
   color: white;
 }
 .main12_link a{
   color: white;
-}
-.main12_image{
-  /* background-color: rgb(255, 255, 255); */
-  
 }
 .main12_description{
   /* background-color: #3c6bc9; */
@@ -719,39 +737,7 @@ form {
   /* margin: 4%; */
   padding: 3% 0;  
 } 
-.main12{
-  width: 96%;
-  padding: 3%;
-  align-content: center;
-  margin: 1% 2% 5% 2% ;
-  border-radius: 20px;
-  height: fit-content;
-  background-color: #D8E5FE;
-}
 .carousel-inner{
   background-color: #e6eefd;
   padding: 30px;
-}
-
-.main12_text{
-  width: 90%;
-  margin: 0 0 0 5%;
-  /* padding: ; */
-  background-color: #e6eefd;
-  border-radius: 40px;
-  color: #000000;
-  
-}
-.main12_link{
-  /* border: 2px solid #3c6bc9; */
-  background-color: #0e4ecf;
-  margin: 0 0 0 5%;
-  border-radius: 200px;
-  width: 50%;
-  align-items: center;
-  padding: 1.2% 1.2% 1.2% 3%;
-  color: white;
-}
-.main12_link a{
-  color: white;
 }
