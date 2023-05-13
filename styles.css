@@ -186,10 +186,6 @@
   color: #3c6bc9;
   /* border: 2px solid #3c6bc9; */
 }
-.button1:hover::after {
-  content: " Coming soon";
-  color: red;
-}
 .button2:hover {
   background-color: #3c6bc9;
   /* border: 2px solid white; */
