@@ -259,74 +259,77 @@ body {
   text-align: center;
 }
 .skills {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  padding-bottom: 130px;
-  padding-top: 80px;
+  margin: 10px 0 10px 0;
+  padding: 50px 0;
   width: 100%;
   background-color: #e6eefd;
   border-radius: 8px;
 }
-.skills1 {
+.skills1{
   display: flex;
-  margin: auto;
-  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+
 }
-.skills11 {
-  width: 20%;
-  margin: auto;
-  margin-right: 30px;
+.skills11{
+  margin: 20px;
+  
 }
-.skills12 {
-  width: 20%;
-  margin: auto;
-  margin-left: 30px;
+.skills11 p{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.x {
-  width: 100%;
-  margin: auto;
+.skills11 p img{
+  width: 40%;
+  aspect-ratio: 3/2;
+  /* background-color: white; */
+  /* max-inline-size:inherit; */
 }
-.y {
-  width: 96%;
-  margin: auto;
-  padding: 2%;
+.containerbar:hover{
+  /* width: 202px; */
+  transform: 3s;
+  box-shadow: 2px 2px;
+  background-color: #093690;
+  /* height: 202px; */
 }
 
 .containerbar {
-  background-color: rgb(210, 226, 255);
-  width: 100%;
-  border: none;
-  border-radius: 25px;
-}
-.skillx {
   background-color: #0e4ecf;
   color: white;
-  padding: 2%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
   font-size: 20px;
   border-radius: 25px;
 }
-.htmlbar {
-  width: 80%;
+
+
+
+@media(max-width:800px){
+  .containerbar{
+    width: 60%;
+    
+  }
+  .skills11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
-.cppbar {
-  width: 75%;
-}
-.cbar {
-  width: 75%;
-}
-.cssbar {
-  width: 75%;
-}
-.reactbar {
-  width: 40%;
-}
-.tailwindbar {
-  width: 50%;
-}
-.javascriptbar {
-  width: 50%;
-}
+
+
+
+
+ /* new setion */
+
+
+
 
 .Project-Suggestion {
   width: 100%;
