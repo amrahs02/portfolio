@@ -35,20 +35,17 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
-.nav-main {
-  width: 100%;
-  display: flex;
-  /* border-radius: 8px; */
-  background-color: #e6eefd;
-  margin-bottom: 7px;
-}
 
+
+.navbar{
+  color: white;
+}
 .nav-icon .logo {
   display: inline-block;
-  /* padding-left: 20px; */
-  width: 15%;
+  padding-left: 20px;
+  width:70px;
   border-radius: 100%;
-  /* margin-left: 15px; */
+  margin-left: 15px;
 }
 
 
@@ -61,7 +58,10 @@ body {
     display: none;
   }
   .nav-name{
+    color: black;
     flex-wrap: nowrap;
+    width: 1000%;
+    display: block;
   }
 }
 
@@ -227,22 +227,19 @@ body {
 .sign {
   width: 60px;
 }
-.about_button_1 {
+.about_button_1, .about_button_2 {
   border: none;
   border-radius: 20px;
-  padding: 12px;
+  padding: 18px;
   margin: 2px;
   background-color: #0e4ecf;
   color: white;
 }
-.about_button_2 {
-  border: none;
-  border-radius: 20px;
-  padding: 12px;
-  margin: 2px;
-  background-color: #0e4ecf;
+.about_button_1:visited, .about_button_2:visited{
   color: white;
-}
+  text-decoration: none;
+} 
+
 
 .projecttext {
   text-align: center;
@@ -436,10 +433,11 @@ body {
 @media (max-width: 800px) {
   .main12 {
     background-color: green;
-    width: 90%;
+    width: 100%;
   }
-  .main12_link {
-    /* width: 50%; */
+  .carousel-control-prev-icon{
+    background-color: red;
+    display: none;
   }
 }
 
@@ -457,6 +455,12 @@ body {
 .tech_used:hover {
   content: "Html";
 }
+
+
+
+
+
+
 
 .contacts {
   width: 100%;
@@ -508,11 +512,16 @@ form {
   border-radius: 25px;
   background-color: #e6eefd;
   padding: 13px;
-  /* margin: 0px; */
+  margin: 6px;
   border-color: #2d5cc3;
   border: 2px solid #2d5cc3;
 }
-.button7 {
+.submit-contact{
+  background-color: #0e4ecf;
+  color: white;
+  cursor: pointer;
+}
+.button {
   width: 60%;
   border-radius: 25px;
   padding: 13px;
@@ -560,9 +569,9 @@ form {
 }
 
 .main12 {
-  width: 70%;
+  width: 90%;
   background-color: #d8e5fe;
-  padding: 5%;
+  padding: 40px 20px 80px 20px;
   margin: auto;
   border-radius: 20px;
   /* height: fit-content; */
@@ -577,9 +586,9 @@ form {
   width: 200px;
   padding: 10px 20px;
 }
-.main12 h2 {
+.main12 h3 {
   background-color: #0e4ecf;
-  padding: 15px 0 15px 20px;
+  padding: 10px;
   color: white;
   border-radius: 50px;
   /* width: 75%; */
