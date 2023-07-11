@@ -1,0 +1,15 @@
+/* css for notification   */
+
+#notification {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    border: 2px solid #eaeaea;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    display: none;
+  }
+  
