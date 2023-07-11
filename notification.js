@@ -10,5 +10,5 @@ function showNotification(message) {
   }
   
   // Example usage
-  showNotification("Dark Mode and ChatBot is Available...");
+  showNotification("Dark Mode and ChatBot is Now Available...");
   
