@@ -24,7 +24,9 @@ body::-webkit-scrollbar-button {
   display:none;
 }
 
-
+*{
+  scroll-behavior: smooth;
+}
 body {
   display: inline-block;
   width: 100%;
