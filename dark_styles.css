@@ -26,6 +26,7 @@ body::-webkit-scrollbar {
   
   *{
     /* background-color: #000; */
+      scroll-behavior: smooth;
   }
   body {
     display: inline-block;
