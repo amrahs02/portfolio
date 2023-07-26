@@ -54,4 +54,4 @@ Feel free to explore the website and interact with its different components.
 
 For any inquiries or feedback, you can reach out to the website owner at the following email address: sandeepsharma2183@gmail.com.
 
-Thank you for visiting the Project Name website!
+Thank you for visiting the Here!
