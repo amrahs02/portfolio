@@ -1,0 +1,727 @@
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
+body::-webkit-scrollbar {
+    background-color: #222;
+    width: 16px;
+  }
+  
+  /* background of the scrollbar except button or resizer */
+  body::-webkit-scrollbar-track {
+    background-color: #222;
+  }
+  
+  /* scrollbar itself */
+  body::-webkit-scrollbar-thumb {
+    background-color: #777;
+    border-radius: 16px;
+    border: 4px solid #222;
+  }
+  
+  /* set button (top and bottom of the scrollbar) */
+  body::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  *{
+    /* background-color: #000; */
+      scroll-behavior: smooth;
+  }
+  body {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: black;
+
+    font-family: "Helvetica Neue", "Open Sans", "Biotif-Regular", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+  
+  .navbar {
+    color: #fff;
+    background: transparent;
+  }
+  
+  .nav-icon .logo {
+    display: inline-block;
+    padding-left: 20px;
+    width: 70px;
+    border-radius: 100%;
+    margin-left: 15px;
+  }
+  
+  .nav-ul {
+    width: 100%;
+  }
+  
+  @media (max-width: 800px) {
+    .nav-icon {
+      display: none;
+    }
+    .nav-name {
+      color: #fff;
+      flex-wrap: nowrap;
+      width: 1000%;
+      display: block;
+    }
+  }
+  
+
+#mode-switch{
+  width: 40px;
+  mix-blend-mode:luminosity;
+  cursor: pointer;
+}
+
+
+  .container1 {
+    background-color: #212123;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    margin-top: 5px;
+    border-radius: 8px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .container11 {
+    width: 50%;
+    padding-top: 40px;
+    text-align: right;
+    text-decoration: white;
+    padding-bottom: 30px;
+  }
+  
+  .container12 {
+    width: 65%;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    margin: auto;
+    margin-left: 40px;
+  }
+  
+  .Sandeeptext {
+    color: #0e4ecf;
+  }
+  
+  .profile {
+    width: 60%;
+    padding: 0px;
+    border-radius: 100%;
+    border: 15px solid #111;
+    cursor: pointer;
+    transition: border 1s;
+  }
+  
+  .profile:hover {
+    border: 20px solid #1b62ee;
+  }
+  
+  .webtext {
+    color: #3c6bc9;
+  }
+  
+  .webtext a {
+    text-decoration: none;
+  }
+  
+  .webtext:hover {
+    color: #0e4ecf;
+    cursor: pointer;
+  }
+  
+  .frontend span:nth-child(2) {
+    color: transparent;
+    -webkit-text-stroke: 1px #1b62ee;
+    font-size: 70px;
+    background: url(/images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    background-color: #1b62ee;
+    animation: back 20s linear infinite;
+  }
+  
+  @keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
+  }
+  
+  .button1 {
+    border-radius: 20px;
+    background-color: #0e4ecf;
+    padding: 12px;
+    color: #fff;
+    border: none;
+    margin: 6px;
+    text-align: center;
+    cursor: pointer;
+    transition: color 1.5s;
+  }
+  
+  /* Dark Mode specific styles */
+  
+  body.dark-mode {
+    background-color: #111;
+  }
+  
+  body.dark-mode::-webkit-scrollbar {
+    background-color: #111;
+  }
+  
+  body.dark-mode::-webkit-scrollbar-thumb {
+    background-color: #777;
+    border-color: #111;
+  }
+  
+  .navbar.dark-mode {
+    color: #fff;
+  }
+  
+  .container1.dark-mode {
+    background-color: #111;
+  }
+  
+  .container11.dark-mode {
+    text-align: right;
+  }
+  
+  .container12.dark-mode {
+    color: #fff;
+  }
+  
+  .Sandeeptext.dark-mode {
+    color: #0e4ecf;
+  }
+  
+  .profile.dark-mode {
+    border-color: #111;
+  }
+  
+  .webtext.dark-mode {
+    color: #3c6bc9;
+  }
+  
+  .webtext.dark-mode:hover {
+    color: #0e4ecf;
+  }
+  
+  .frontend.dark-mode span:nth-child(2) {
+    background-color: #1b62ee;
+  }
+  
+  .button1.dark-mode {
+    background-color: #0e4ecf;
+    color: #fff;
+  }
+  
+  .button2 {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 12px;
+    color: #0e4ecf;
+    border: none;
+    margin: 6px;
+    text-align: center;
+    transition: color 1.5s;
+    cursor: pointer;
+  }
+  
+  .button1:hover {
+    background-color: #fff;
+    color: #0e4ecf;
+  }
+  
+  .button2:hover {
+    background-color: #0e4ecf;
+    color: #fff;
+  }
+  
+  .button2:hover::after {
+    content: " @ sandeepsharma2183@gmail.com";
+  }
+  
+  .social-media {
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .social-media li a {
+    padding-right: 40px;
+  }
+  
+  .sandeepabouttext {
+    color: #0e4ecf;
+  }
+  
+/* about section start */
+
+
+  .about {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #212123;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+  }
+  
+  .imgpic2 {
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .profilepic2 {
+    width: 50%;
+    background-color: #212123;
+    border-radius: 50%;
+  }
+  
+  .about2 {
+    align-items: right;
+    padding-top: 20px;
+    background-color: #111;
+    width: 50%;
+    padding: 3%;
+    border-radius: 20px;
+    color: #fff;
+  }
+  
+  .sign {
+    width: 60px;
+  }
+  
+  .about_button_1,
+  .about_button_2 {
+    border: none;
+    border-radius: 20px;
+    padding: 18px;
+    margin: 2px;
+    background-color: #0e4ecf;
+    color: #fff;
+    transition: background-color 0.5s;
+  }
+  
+  .about_button_1:hover,
+  .about_button_2:hover {
+    background-color: #fff;
+  }
+  
+  .projecttext {
+    text-align: center;
+  }
+  
+  .skills {
+    margin: 10px 0 10px 0;
+    padding: 50px 0;
+    width: 100%;
+    background-color: #212123;
+    border-radius: 8px;
+  }
+  
+  .skills1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skills11 {
+    margin: 20px;
+  }
+  
+  .skills11 p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills11 p img {
+    width: 40%;
+  }
+  
+  .containerbar {
+    background-color: #0e4ecf;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 25px;
+  }
+  
+  .containerbar:hover {
+    box-shadow: 2px 2px;
+    background-color: #093690;
+    width: 190px;
+  }
+  
+  @media (max-width: 800px) {
+    .containerbar {
+      width: 300px;
+    }
+    .skills11 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+
+  .Project-Suggestion {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #212123;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .button6 {
+    background-color: #0e4ecf;
+    border: 2px solid #0e4ecf;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    transition: color 0.5s;
+    margin: 6px;
+  }
+  
+  .button6:hover {
+    color: #0e4ecf;
+    background-color: #111;
+  }
+  
+  @media (max-width: 750px) {
+    .project1 {
+      margin: auto;
+      display: flex;
+      width: 70%;
+      flex-direction: column;
+    }
+    .projects11 {
+      width: 100%;
+      margin: auto;
+    }
+    .projects12 {
+      width: 100%;
+      margin: auto;
+    }
+    .projectbox {
+      width: 50%;
+    }
+    .projects11,
+    .projects12 {
+      margin: auto;
+    }
+    .home a {
+      color: #fff;
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .about {
+      margin-top: 7px;
+      padding-top: 5px;
+      background-color: #212123;
+      padding-bottom: 0px;
+    }
+    .imgpic2 {
+      display: none;
+    }
+    .about2 {
+      width: 90%;
+      margin: 60px auto;
+      padding: 0;
+      justify-content: center;
+      border-radius: 0;
+    }
+    div .about2 {
+    background-color: #212123;
+    }
+    .contacts {
+      display: flex;
+      flex-direction: column;
+    }
+    .contacts .contacts1 {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .contacts .contacts2 {
+      width: 100%;
+    }
+    .container1 {
+      display: flex;
+      padding-top: 20px;
+      flex-direction: column;
+    }
+    .container1 .container11 {
+      margin: auto;
+      width: 40%;
+    }
+    .container12 {
+      margin: auto;
+      width: 90%;
+    }
+    .skills1 {
+      display: flex;
+      margin-top: 0;
+      flex-direction: column;
+      width: 100%;
+    }
+    .skills11 {
+      width: 90%;
+      margin: auto;
+    }
+    .skills12 {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .main12 {
+      background-color: green;
+      width: 100%;
+    }
+    .carousel-control-prev-icon {
+      background-color: red;
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1606px) {
+    .contacts2 {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 1130px) {
+    .btn {
+      width: 40%;
+    }
+  }
+  
+  .tech_used:hover {
+    content: "HTML";
+  }
+  
+  .contacts {
+    width: 100%;
+    background-color: #212123;
+    padding: 70px 0px;
+    display: flex;
+  }
+  
+  .contacts1 {
+    display: inline-block;
+    width: 25%;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .contacts2 {
+    width: 40%;
+    background-color: #28282a;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+    border-radius: 20px;
+    padding: 40px 0px;
+    text-align: center;
+  }
+  
+  form {
+    margin: 20px;
+  }
+  
+  .social-media2 {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    width: 40%;
+  }
+  
+  .social-media2 div {
+    margin: auto;
+  }
+  
+  .user-box {
+    width: 60%;
+    border-radius: 25px;
+    background-color: #212123;
+    padding: 13px;
+    margin: 6px;
+    border-color: #2d5cc3;
+    border: 2px solid #2d5cc3;
+  }
+  
+  .submit-contact {
+    background-color: #0e4ecf;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button {
+    width: 60%;
+    border-radius: 25px;
+    padding: 13px;
+    border: 2px solid #0e4ecf;
+    background-color: #0e4ecf;
+    color: #d8e5fe;
+    margin: 0px;
+    transition: width 0.5s;
+  }
+  
+  .user-box:hover {
+    border-color: #d8e5fe;
+  }
+  
+  .button7:hover {
+    color: #2d5cc3;
+    background-color: #d8e5fe;
+  }
+  
+  .footer {
+    background-color: #111;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .footer p {
+    font-size: 13px;
+    color: white;
+  }
+  
+  .electonics_project_master {
+    /* padding: 300px; */
+    /* background-color: red; */
+    /* height: 2000px; */
+  }
+  
+  .main1 {
+    width: 100%;
+    background-color: #212123;
+    padding: 50px 0;
+  }
+  
+  .main12 {
+    width: 90%;
+    background-color: #212123;
+    height: 400px;
+    padding: 40px 20px 80px 20px;
+    margin: auto;
+    border-radius: 20px;
+  }
+  
+  .main12_link {
+    background-color: #0e4ecf;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    width: 200px;
+    padding: 10px 20px;
+  }
+  
+  .main12 h3 {
+    background-color: #0e4ecf;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50px;
+    margin: 10px;
+  }
+  
+  .heading {
+    text-align: center;
+    background-color: #111;
+  }
+
+  
+  .main12_link:hover {
+    background-color: #d8e5fe;
+    color: #0e4ecf;
+    padding: 8px;
+    border: 2px solid #0e4ecf;
+  }
+  
+  .main12_description {
+    text-align: left;
+    color: #000;
+  }
+  
+  .main12_description li::marker {
+    color: #0e4ecf;
+  }
+  
+  .carousel-inner {
+    background-color: #d8e5fe;
+  }
+  
+  @media (max-width: 800px) {
+    .box {
+      width: 90%;
+    }
+  }
+  
+
+
+  /* Dark mode styles */
+
+  .main1 {
+    /* background-color: #222222; */
+  }
+  .main12 {
+    background-color: #222222;
+  }
+
+  .carousel-item {
+    background-color: #111111;
+  }
+
+  .heading h1 {
+    color: #ffffff;
+  }
+
+  .main12_text h3 {
+    color: #ffffff;
+  }
+
+  .main12_description li {
+    color: #ffffff;
+  }
+
+  .main12_link {
+    background-color: #0e4ecf;
+    color: #ffffff;
+  }
+  
+  /* Additional styles for dark mode */
+  /* Add any additional styles here */
